@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: accout-service
+  datasource:
+    username: root
+    password: 1234Aa@
+    url: 'jdbc:mysql://localhost:3308/account_service'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+server:
+  port: '9080'
+jwt:
+  signerKey: "hLgpPB5thIXhazNz6w77vtElouTPvffRcYxgJQattKh5S2jB0vz80XVPsnnijMpl"
+
